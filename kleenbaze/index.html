@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleenbaze - High-End Cleaning & Restoration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+    <link rel="icon" type="image/png" href="img/logo.png" sizes="32x32">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-brand">
+                <img src="img/logo.png" alt="Kleenbaze Logo" class="logo">
+                <h1>KLEENBAZE-LIMITED</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <video class="bg-video" src="img/polishing.mp4" autoplay loop muted playsinline></video>
+        <div class="container">
+            <h2>Your Surfaces, Our Expertise</h2>
+            <p>A full-service cleaning and restoration company specializing in high-end surface care and general cleaning solutions.</p>
+            <a href="#services" class="button">Our Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-hero">
+                <h2 class="about-title">Sparkling Clean,<br>Expertly Restored.</h2>
+                <p class="about-desc">
+                    Welcome to Kleenbaze, your trusted partner for<br>
+                    professional cleaning and surface restoration services.<br>
+                    From homes to businesses, we deliver pristine results.
+                </p>
+                <div class="about-actions">
+                    <a href="#contact" class="button about-btn-white">
+                        Get a Free Quote
+                        <span class="about-btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <img src="img/marble.jpg" alt="Marble Polishing">
+                    <h3>Marble & Granite Grinding and Polishing</h3>
+                    <p>We restore natural stone to its original shine, removing scratches, stains, and dullness.</p>
+                </div>
+                <div class="service">
+                    <img src="img/stone.jpeg" alt="Stone Restoration">
+                    <h3>Stone Restoration</h3>
+                    <p>Whether it’s floors, countertops, or walls, we bring damaged or aged stone surfaces back to life.</p>
+                </div>
+                <div class="service">
+                    <img src="img/janitorial.jpeg" alt="Janitorial Services">
+                    <h3>Janitorial Services</h3>
+                    <p>Reliable daily, weekly, or monthly cleaning for offices, buildings, and commercial spaces.</p>
+                </div>
+                <div class="service">
+                    <img src="img/fumigation.jpeg" alt="Fumigation & Pest Control">
+                    <h3>Fumigation & Pest Control</h3>
+                    <p>Safe and effective treatments to eliminate pests and protect your environment.</p>
+                </div>
+                <div class="service">
+                    <img src="img/window.jpg" alt="Window Cleaning">
+                    <h3>Window Cleaning</h3>
+                    <p>Crystal-clear results for residential and commercial properties, inside and out.</p>
+                </div>
+                <div class="service">
+                    <img src="img/carpet.jpeg" alt="Upholstery & Carpet Cleaning">
+                    <h3>Upholstery & Carpet Cleaning</h3>
+                    <p>Deep cleaning that lifts stains, removes odors, and extends the life of your furniture and rugs.</p>
+                </div>
+                <div class="service">
+                    <img src="img/homecleaning.png" alt="General Home Cleaning">
+                    <h3>General Home Cleaning</h3>
+                    <p>From kitchens to bathrooms and everything in between, we handle the dirty work so you don’t have to.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch for a free quote or to discuss your specific cleaning and restoration needs.</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+                <label for="service">Service of Interest:</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected> Please select a service </option>
+                    <option value="marble">Marble & Granite Grinding and Polishing</option>
+                    <option value="stone">Stone Restoration</option>
+                    <option value="janitorial">Janitorial Services</option>
+                    <option value="fumigation">Fumigation & Pest Control</option>
+                    <option value="window">Window Cleaning</option>
+                    <option value="carpet">Upholstery & Carpet Cleaning</option>
+                    <option value="homecleaning">General Home Cleaning</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kleenbaze. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
